@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* body */
+body {
+  background: #000;
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  padding: 69px 0 0 0; }
+
+/* header */
+header[role="banner"] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  min-height: 45px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 12px 0;
+  z-index: 9999; }
+
+header h1 {
+  float: left;
+  font-size: 26px;
+  font-size: 2.6rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 8px 0 0 16px;
+  padding: 0 0 0 0; }
+
+header h1 a {
+  text-decoration: none;
+  color: #fff; }
+
+header nav {
+  float: right;
+  margin: 16px 0 0 0;
+  padding: 0 70px 0 0; }
+
+header nav ul li {
+  display: inline-block; }
+
+header nav ul li a {
+  display: block;
+  font-size: 14px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 25px; }
+
+header span {
+  position: absolute;
+  top: 18px;
+  right: 14px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: gray;
+  cursor: pointer; }
+
+/* category */
+#cnav {
+  display: table;
+  position: fixed;
+  top: 69px;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 12px 0 13px 0;
+  z-index: 9998; }
+
+#cnav h2, #cnav ul {
+  display: table-cell; }
+
+#cnav h2 {
+  padding: 0 0 0 16px;
+  width: 98px;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #fff; }
+
+#cnav h2:after {
+  content: ":"; }
+
+#cnav ul {
+  padding: 0 16px 0 0; }
+
+#cnav li {
+  display: inline-block; }
+
+#cnav li a {
+  display: block;
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 10px;
+  border-radius: 4px; }
+
+main[role="main"] article {
+  position: relative;
+  overflow: hidden;
+  height: 469px;
+  clear: both; }
+
+main[role="main"] article img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9996; }
+
+main[role="main"] article .textbox {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9997;
+  height: 100%;
+  width: 24%;
+  background: rgba(0, 0, 0, 0.3); }
+
+main[role="main"] article:nth-child(even) .textbox {
+  left: 0; }
