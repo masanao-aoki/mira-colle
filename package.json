@@ -1,19 +1,19 @@
 {
-  "name": "gulp-test",
+  "name": "mira-core",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "root/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/masanao-aoki/gulp-test.git"
+    "url": "https://github.com/masanao-aoki/mira-colle.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/masanao-aoki/gulp-test/issues"
+    "url": "hhttps://github.com/masanao-aoki/mira-colle/issues"
   },
   "homepage": "https://github.com/masanao-aoki/gulp-test",
   "devDependencies": {
